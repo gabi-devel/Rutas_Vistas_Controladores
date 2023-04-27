@@ -8,21 +8,21 @@
 <body>
 	<div class="container-fluid">
         <div class="row">
-            <h4 class="bg-light border-top py-2">Calendario Académico</h4>
-            <h4>Inicio y finalización de Cursada por Cuatrimestres</h4>
+            <h5 class="bg-light border-top py-2">Calendario Académico</h5>
+            <h6>Inicio y finalización de Cursada por Cuatrimestres</h6>
             <a href="{{route('calendario')}}" class="mb-3">
                 <button class="btn btn-primary">Calendario</button>
             </a>
          
-            <h4 class="bg-light border-top py-2">Carreras</h4>
-            <h4>Oferta Académica 2023</h4>
+            <h5 class="bg-light border-top py-2">Carreras</h5>
+            <h6>Oferta Académica 2023</h6>
             <a href="{{route('carreras')}}">
                 <button class="btn btn-primary">Carreras</button>
             </a>
         </div>
 
         <hr>
-        <a href="{{ route('saludar', "nombre") }}">Saludar</a>
+        {{-- <a href="{{ route('saludar', "nombre") }}">Saludar</a> --}}
 	<!-- Incluye los archivos JS de Bootstrap -->
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.1/js/bootstrap.bundle.min.js"></script>
 </body>

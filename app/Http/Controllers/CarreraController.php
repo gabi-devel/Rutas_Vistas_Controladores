@@ -9,16 +9,11 @@ class CarreraController extends Controller
     public function mostrarCarrera($indice)
     {
         $carreras = [
-            "Ingeniería de Sistemas",
-            "Ingeniería Industrial",
-            "Ingeniería Civil",
-            "Ingeniería Ambiental",
-            "Ingeniería Mecánica",
-            "Ingeniería Eléctrica",
-            "Ingeniería Química",
-            "Ingeniería Electrónica",
-            "Ingeniería de Telecomunicaciones",
-            "Ingeniería de Software"
+            "Tecnicatura Superior en Logística",
+            "Tecnicatura Superior en Higiene y Seguridad en el Trabajo",
+            "Tecnicatura Superior en Mantenimiento Industrial",
+            "Tecnicatura Superior en Administración de Recursos Humanos",
+            "Tecnicatura Superior en Análisis de Sistemas"
         ];
 
         $carrera = $carreras[$indice];
